@@ -1,0 +1,26 @@
+.mydiv
+{
+    
+    border-radius:-50%;
+    border: 5px outset red;
+                background-color: rgb(112, 56, 114)
+               /* position:absolute;
+                left: 350px;*/
+}
+
+body{
+    background-color: rgb(197, 154, 119);
+}
+
+h1{
+    color:rgb(200, 228, 41);
+    text-align:center;
+    text-decoration:underline; 
+
+}
+
+p{
+    color:azure;
+    
+    
+}
