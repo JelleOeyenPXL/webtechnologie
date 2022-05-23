@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="hoofdsite.css">
+        <meta charset ="UTF-8">
+        <meta name ="description" content="This is an awesome website ">
+        <title>tutorial yt</title>
+    </head>
+    <body style ="background-color: lightblue;">
+        <header>
+            <nav>
+                <div class = "topnav">
+                    <a class="active" href="hoofdsite.html">Home</a>
+                    <a href="bootstrap/">bootstrap</a>
+                    <a href="eersteprobeersel.html">engineer</a>
+                    <a href="javascript1.html">javascript</a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class = "datum">
+
+                <p id="demo"></p>
+    
+                <script>
+                let day;
+                switch (new Date().getDay()) 
+                {
+                    case 0:
+                        day = "zondag";
+                        break;
+                    case 1:
+                        day = "maandag";
+                        break;
+                    case 2:
+                        day = "dinsdag";
+                        break;
+                    case 3:
+                        day = "woensdag";
+                        break;
+                    case 4:
+                        day = "donderdag";
+                        break;
+                    case 5:
+                        day = "vrijdag";
+                        break;
+                    case  6:
+                        day = "zaterdag";
+                }
+                document.getElementById("demo").innerHTML = "vandaag is het " + day;
+            </script>
+     </div>
+           
+
+            <table>
+                <tr> 
+                    <th>maandag</th>
+                    <th>dinsdag</th>
+                    <th>woensdag</th>
+                    <th>donderdag</th>
+                    <th>vrijdag</th>
+                </tr> 
+                <tr>
+                    <td>c programmeren<br> 8:30 - 12:30</td>
+                    <td>c programmeren <br>13:30 - 16:30</td>
+                    <td> vrij</td>
+                    <td> vrij</td>
+                    <td> vrij</td>
+                </tr>
+                <tr>
+                    <td>webtechnologie <br> 13:30 - 17:30</td> 
+            </table>
+        </main>
+        <footer>
+            <div class ="padding">
+                padding van 70px
+            </div>
+        </footer>
+        <h1>Jelle's website</h1>
+        <p>dit is mijn <b>paragraaf</b></p>
+        
+        <br>
+        hoi
+        <br>
+        <h2><i>deze zin staat in het schuin</i></h2>
+        
+    </body>
+</html>
