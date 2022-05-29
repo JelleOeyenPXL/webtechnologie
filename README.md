@@ -4,12 +4,12 @@ _deze zin staat in het schuin_
 **deze zin staat in het vet**
 **_deze zin staat in het schruin en is vet_**
 
-#header1
-##header2
-###header3
-####header4
-#####header5
-######header6
+# header1
+## header2
+### header3
+#### header4
+##### header5
+###### header6
 
 [rickroll](https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley)
 
