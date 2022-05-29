@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="stylesheet" type="text/css" href="hoofdsite.css" />
     </head>
     <nav>
         <div class = "topnav">
@@ -13,12 +13,37 @@
         </div>
     </nav>
     <body>
-        <p id="demo">javascript can change html content</p>
-        <button type="button" onclick='document.getElementById("demo").innerHTML = "hello Javascript!"'>click me !</button> 
-        <script>
-            document.getElementById("demo").innerHTML = "first javascript";
-            document.write(5+6);
-            
+       
+<div class = "datum">
+
+    <p id="demo"></p>
+
+    <script>
+        let day;
+        switch (new Date().getDay()) 
+        {
+            case 0:
+                day = "zondag";
+                break;
+            case 1:
+                day = "maandag";
+                break;
+            case 2:
+                day = "dinsdag";
+                break;
+            case 3:
+                day = "woensdag";
+                break;
+            case 4:
+                day = "donderdag";
+                break;
+            case 5:
+                day = "vrijdag";
+                break;
+            case  6:
+                day = "zaterdag";
+        }
+        document.getElementById("demo").innerHTML = "vandaag is het " + day;
         </script>
     </body>
 </html>
