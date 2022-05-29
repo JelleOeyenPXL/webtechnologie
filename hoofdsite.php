@@ -17,6 +17,7 @@
         $txt = "php";
         echo "i love $txt !";
         echo "vandaag is het" . date("Y/m/d") . "<br>";
+        echo(pi());
         ?> 
     </body>
 </html>
