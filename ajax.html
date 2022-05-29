@@ -16,6 +16,7 @@
             </nav>
         </header>
         <main>
+            
             <div id="demo">
                 <h1> duw op de knop voor een speciale link</h1>
                 <button type="button" onclick="LoadDoc()">knop</button>
@@ -26,7 +27,7 @@
     <script>
         function LoadDoc() 
         {
-            const xhhtp = new XMLHttpRequest();
+            const xhttp = new XMLHttpRequest();
             xhttp.onload = function()
             {
                 document.getElementById("demo").innerHTML = this.responseText;
