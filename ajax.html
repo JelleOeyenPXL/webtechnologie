@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="hoofdsite.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class = "topnav">
+                    <a class="active" href="hoofdsite.html">Home</a>
+                    <a href="bootstrap/">bootstrap</a>
+                    <a href="eersteprobeersel.html">engineer</a>
+                    <a href="javascript1.html">javascript</a>
+                    <a href="hoofdsite.php">php</a>
+                    <a href="ajax.html">ajax</a>
+            </nav>
+        </header>
+        <main>
+            <h1> duw op de knop voor een speciale link</h1>
+        </main>
+    </body>
+    <script>
+        function loaddoc() 
+        {
+            const xhhtp = new XMLHttpRequest();
+            xhttp.onload = function()
+            {
+                document.getElementById("demo").innerHTML = this.responseText;
+            }
+            xhttp.open("GET","ajax_info.txt", true);
+            xhttp.send();
+        }
+    </script>
+
+</html>
